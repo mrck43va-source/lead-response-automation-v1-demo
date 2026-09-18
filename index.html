@@ -6,6 +6,11 @@
   <title>Lead Response Automation Services &mdash; Synthetic Demo</title>
   <meta name="description" content="Synthetic demonstration of a bounded lead-response automation workflow by Charles Kiser &mdash; Lead Response Automation Services.">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icon-180.png">
+  <meta name="theme-color" content="#0d1c2d">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Lead Response">
 </head>
 <body>
   <header>
@@ -39,7 +44,12 @@
         </div>
         <label>Event ID<input id="eventId" required></label>
         <label>Source<select id="source"><option value="website-form">Website form</option><option value="shared-inbox">Shared inbox</option></select></label>
-        <label>Name<input id="leadName" placeholder="Taylor Test"></label>
+        <label>Name<input id="leadName" <link rel="stylesheet" href="./styles.css">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icon-180.png">
+  <meta name="theme-color" content="#0d1c2d">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Lead Response">="Taylor Test"></label>
         <label>Email<input id="email" value="taylor@example.com"></label>
         <label>Service<input id="service" value="lead response automation"></label>
         <label class="check"><input type="checkbox" id="consentApproved" checked> Approved test channel and consent</label>
@@ -100,8 +110,10 @@
     <div class="footer-note">Demonstration environment &middot; Synthetic data only &middot; Not production</div>
   </footer>
   <script type="module" src="./app.mjs"></script>
+  <script>if ("serviceWorker" in navigator) { navigator.serviceWorker.register("./sw.js"); }</script>
 </body>
 </html>
+
 
 
 
