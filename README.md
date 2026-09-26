@@ -10,3 +10,5 @@ Investor/prospect demonstration only.
 - No guarantee of revenue, conversions, appointments, or response outcomes
 
 This repository is a sanitized public demonstration copy. The production-candidate engineering remains separate and private.
+
+- Interim admin/support mailbox: responseflowsystems.co@gmail.com (legacy mailbox address; business name remains Lead Response Automation Services)
