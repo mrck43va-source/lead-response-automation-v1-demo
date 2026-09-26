@@ -75,3 +75,5 @@ a:hover { color:var(--ink); }
 .policy-status { border:1px solid var(--gold); border-radius:8px; padding:12px 14px; background:#1b1820; color:var(--gold) !important; }
 .footer-nav { display:flex; flex-wrap:wrap; gap:16px; margin:12px 0; }
 .footer-note { color:var(--muted); }
+
+html,body{max-width:100%;overflow-x:hidden} header,main,footer,.workflow,.workspace,.panel,.metrics,.data-grid{min-width:0} h1,h2,p,span,div,a,label{overflow-wrap:anywhere} @media (max-width:520px){h1{font-size:clamp(32px,11vw,42px)} header,main,footer{width:calc(100% - 24px)} .panel{padding:18px}}
